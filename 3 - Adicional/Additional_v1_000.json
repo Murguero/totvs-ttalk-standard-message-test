@@ -139,6 +139,13 @@
                             "available": true,
                             "note": "Código identificador do registro.",
                             "minimalVersion": "12.1.25"
+                        },
+			{
+                            "product": "Datasul",
+                            "available": true,
+                            "note": "Código identificador do registro.",
+			    "example": "EMPRESA | ESTABELECIMENTO | MATRICULA"
+                            "minimalVersion": "12.1.28"
                         }
                     ]
                 }
