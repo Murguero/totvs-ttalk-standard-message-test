@@ -21,6 +21,12 @@
           "contact": "marcia.moura@totvs.com.br",
           "description": "Product Owner RH - Protheus",
           "adapter": ""
+        },
+        {
+          "product": "Datasul",
+          "contact": "fabio.abrao@totvs.com.br",
+          "description": "Proxy Datasul",
+          "adapter": ""
         }
       ]
     }
@@ -65,6 +71,13 @@
                 "available": true,
                 "type": "varchar",
                 "required": true
+              },
+              {
+                "product": "Datasul",
+                "field": "FUNCIONARIO.CDN_EMPRESA|FUNCIONARIO.CDN_ESTAB|FUNCIONARIO.CDN_FUNCIONARIO",
+                "available": true,
+                "type": "varchar",
+                "required": true
               }
             ]
           }
@@ -89,6 +102,14 @@
               "type": "string",
               "required": true,
               "canUpdate": false
+            },
+            {
+              "product": "Datasul",
+              "field": "FUNCIONARIO.CDN_EMPRESA",
+              "available": true,
+              "type": "string",
+              "required": true,
+              "canUpdate": false
             }
           ]
         },
@@ -104,6 +125,14 @@
               "type": "string",
               "note": "",
               "available": true,
+              "canUpdate": false
+            },
+            {
+              "product": "Datasul",
+              "field": "FUNCIONARIO.CDN_ESTAB",
+              "available": true,
+              "type": "string",
+              "required": true,
               "canUpdate": false
             }
           ]
@@ -121,6 +150,14 @@
               "type": "varchar",
               "available": true,
               "canUpdate": false
+            },
+            {
+              "product": "Datasul",
+              "field": "FUNCIONARIO.CDN_FUNCIONARIO",
+              "available": true,
+              "type": "string",
+              "required": true,
+              "canUpdate": false
             }
           ]
         },
@@ -136,6 +173,14 @@
               "note": "Grau de Insalubridade: Minimo, Medio ou Maximo",
               "type": "string",
               "available": true,
+              "canUpdate": false
+            },
+            {
+              "product": "Datasul",
+              "field": "FUNCIONARIO.LOG_RECEBE_INSAL",
+              "available": true,
+              "type": "logical",
+              "required": true,
               "canUpdate": false
             }
           ]
@@ -153,6 +198,14 @@
               "type": "string",
               "available": true,
               "canUpdate": false
+            },
+            {
+              "product": "Datasul",
+              "field": "FUNCIONARIO.LOG_RECEBE_PERICUL",
+              "available": true,
+              "type": "logical",
+              "required": true,
+              "canUpdate": false
             }
           ]
         },
@@ -168,6 +221,14 @@
               "note": "Data final do afastamento.",
               "type": "date",
               "available": true,
+              "canUpdate": false
+            },
+            {
+              "product": "Datasul",
+              "field": "NAO SERA UTILIZADO PELO DATASUL",
+              "available": true,
+              "type": "logical",
+              "required": true,
               "canUpdate": false
             }
           ]
