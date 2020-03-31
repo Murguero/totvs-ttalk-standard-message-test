@@ -255,6 +255,12 @@
                             "available": true,
                             "note": "Código identificador do registro.",
                             "minimalVersion": "12.1.28"
+                        },
+                        {
+                            "product": "Datasul",
+                            "available": true,
+                            "note": "Código identificador do registro.",
+                            "minimalVersion": "12.1.28"
                         }
                     ]
                 }
